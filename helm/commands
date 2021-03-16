@@ -1,0 +1,5 @@
+helm install seipoc --repo https://cprice-ping.github.io/helm-charts ping-sample-ciam -f seipoc.yaml
+
+helm uninstall seipoc
+Kubectl delete pvc/out-dir-seipoc-pingdirectory-0
+Kubectl delete pvc/out-dir-seipoc-pingfederate-admin-0
